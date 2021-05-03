@@ -1,0 +1,73 @@
+# github.com/andybalholm/brotli v1.0.1
+github.com/andybalholm/brotli
+# github.com/aws/aws-sdk-go v1.17.12
+github.com/aws/aws-sdk-go/aws
+github.com/aws/aws-sdk-go/aws/awserr
+github.com/aws/aws-sdk-go/aws/awsutil
+github.com/aws/aws-sdk-go/aws/client
+github.com/aws/aws-sdk-go/aws/client/metadata
+github.com/aws/aws-sdk-go/aws/corehandlers
+github.com/aws/aws-sdk-go/aws/credentials
+github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds
+github.com/aws/aws-sdk-go/aws/credentials/endpointcreds
+github.com/aws/aws-sdk-go/aws/credentials/processcreds
+github.com/aws/aws-sdk-go/aws/credentials/stscreds
+github.com/aws/aws-sdk-go/aws/csm
+github.com/aws/aws-sdk-go/aws/defaults
+github.com/aws/aws-sdk-go/aws/ec2metadata
+github.com/aws/aws-sdk-go/aws/endpoints
+github.com/aws/aws-sdk-go/aws/request
+github.com/aws/aws-sdk-go/aws/session
+github.com/aws/aws-sdk-go/aws/signer/v4
+github.com/aws/aws-sdk-go/internal/ini
+github.com/aws/aws-sdk-go/internal/sdkio
+github.com/aws/aws-sdk-go/internal/sdkrand
+github.com/aws/aws-sdk-go/internal/sdkuri
+github.com/aws/aws-sdk-go/internal/shareddefaults
+github.com/aws/aws-sdk-go/private/protocol
+github.com/aws/aws-sdk-go/private/protocol/json/jsonutil
+github.com/aws/aws-sdk-go/private/protocol/jsonrpc
+github.com/aws/aws-sdk-go/private/protocol/query
+github.com/aws/aws-sdk-go/private/protocol/query/queryutil
+github.com/aws/aws-sdk-go/private/protocol/rest
+github.com/aws/aws-sdk-go/private/protocol/restjson
+github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil
+github.com/aws/aws-sdk-go/service/sts
+github.com/aws/aws-sdk-go/service/xray
+# github.com/aws/aws-xray-sdk-go v1.3.0
+## explicit
+github.com/aws/aws-xray-sdk-go/daemoncfg
+github.com/aws/aws-xray-sdk-go/header
+github.com/aws/aws-xray-sdk-go/internal/logger
+github.com/aws/aws-xray-sdk-go/internal/plugins
+github.com/aws/aws-xray-sdk-go/pattern
+github.com/aws/aws-xray-sdk-go/resources
+github.com/aws/aws-xray-sdk-go/strategy/ctxmissing
+github.com/aws/aws-xray-sdk-go/strategy/exception
+github.com/aws/aws-xray-sdk-go/strategy/sampling
+github.com/aws/aws-xray-sdk-go/utils
+github.com/aws/aws-xray-sdk-go/xray
+github.com/aws/aws-xray-sdk-go/xraylog
+# github.com/fasthttp/router v1.3.12
+## explicit
+github.com/fasthttp/router
+github.com/fasthttp/router/radix
+# github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af
+github.com/jmespath/go-jmespath
+# github.com/klauspost/compress v1.11.8
+github.com/klauspost/compress/flate
+github.com/klauspost/compress/gzip
+github.com/klauspost/compress/zlib
+# github.com/pkg/errors v0.8.1
+github.com/pkg/errors
+# github.com/savsgio/gotils v0.0.0-20210316171653-c54912823645
+github.com/savsgio/gotils/bytes
+github.com/savsgio/gotils/strconv
+github.com/savsgio/gotils/strings
+# github.com/valyala/bytebufferpool v1.0.0
+github.com/valyala/bytebufferpool
+# github.com/valyala/fasthttp v1.24.0
+## explicit
+github.com/valyala/fasthttp
+github.com/valyala/fasthttp/fasthttputil
+github.com/valyala/fasthttp/stackless

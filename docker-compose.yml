@@ -1,0 +1,27 @@
+version: '3.2'
+
+services:
+  proxy:
+    image: golang:1.15-alpine
+    build: .
+    command: go run -mod=vendor main.go
+    volumes:
+      - .:/go/src/github.com/nicolascb/xray-fasthttp
+    working_dir: /go/src/github.com/nicolascb/xray-fasthttp
+    ports:
+      - "8080:8080"
+    depends_on:
+      - xray
+  xray:
+    image: amazon/aws-xray-daemon
+    environment:
+      - AWS_REGION=us-west-2
+    command:
+      - '-o'
+      - '--log-level=debug'
+      - '--bind=xray:2000'
+      - '-t=xray:2000'
+    ports:
+      - 2000:2000/udp
+    volumes:
+      - ~/.aws/:/root/.aws/
