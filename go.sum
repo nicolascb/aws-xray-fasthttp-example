@@ -6,6 +6,8 @@ github.com/aws/aws-sdk-go v1.17.12 h1:jMFwRUaM0LcfdenfvbDLePNoWSoCdOHqF4RCvSB4xN
 github.com/aws/aws-sdk-go v1.17.12/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
 github.com/aws/aws-xray-sdk-go v1.3.0 h1:O+jtGCD4nl8CkZPWpj2O6RqNXw1v4WTtRSJhFrniQ8s=
 github.com/aws/aws-xray-sdk-go v1.3.0/go.mod h1:tmxq1c+yeEbMh39OmRFuXOrse5ajRlMmDXJ6LrCVsIs=
+github.com/aws/aws-xray-sdk-go v1.4.1-0.20210506125432-669b26e08864 h1:4x28hUwxJyStFBU9XfUPIL9GErUhmoN8lXrAzY0NKc4=
+github.com/aws/aws-xray-sdk-go v1.4.1-0.20210506125432-669b26e08864/go.mod h1:fFcWnRgsQn7rk50Os+i6cARUPhn/r1yp46XiIHAIMVs=
 github.com/davecgh/go-spew v0.0.0-20160907170601-6d212800a42e h1:PuhFC+IBoXcNHhkaUTRc+kNN0MtTMPFoWWBXyNMw7ww=
 github.com/davecgh/go-spew v0.0.0-20160907170601-6d212800a42e/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/fasthttp/router v1.3.12 h1:ihwv6CPnO9Vi/5lLUSaj08xl/X9IHGffN8P2srg32dw=
