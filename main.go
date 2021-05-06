@@ -19,7 +19,7 @@ func hello(ctx *fasthttp.RequestCtx) {
 	fmt.Fprintf(ctx, "Hello, %s!\n", ctx.UserValue("name"))
 }
 
-func middleware(name string, h fasthttp.RequestHandler, fh *xray.FastHTTPHandler) fasthttp.RequestHandler {
+func middleware(name string, h fasthttp.RequestHandler, fh xray.FastHTTPHandler) fasthttp.RequestHandler {
 	f := func(ctx *fasthttp.RequestCtx) {
 		h(ctx)
 	}
@@ -39,7 +39,7 @@ func init() {
 }
 
 func main() {
-	fh := xray.NewFastHTTP(nil)
+	fh := xray.NewFastHTTPInstrumentor(nil)
 	r := router.New()
 	r.GET("/", middleware("index", index, fh))
 	r.GET("/hello/{name}", middleware("hello", hello, fh))
