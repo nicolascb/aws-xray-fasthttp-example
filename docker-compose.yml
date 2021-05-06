@@ -2,9 +2,9 @@ version: '3.2'
 
 services:
   proxy:
-    image: golang:1.15-alpine
+    image: golang:1.16-alpine
     build: .
-    command: go run -mod=vendor main.go
+    command: go run main.go
     volumes:
       - .:/go/src/github.com/nicolascb/xray-fasthttp
     working_dir: /go/src/github.com/nicolascb/xray-fasthttp
